@@ -1,7 +1,7 @@
 # Kolabslider timeline slider
 
-Demo available in here http://kolabdigital.github.io/kolabslider/
-Photos used in demo are taken from https://unsplash.com/
+Demo available in here http://kolabdigital.github.io/kolabslider
+Photos used in demo are taken from https://unsplash.com
 
 # Requirements
 ## Basic requirements
@@ -9,8 +9,10 @@ Photos used in demo are taken from https://unsplash.com/
 "jquery-ui": ">=1.11.4"
 
 Fore example include
+```html
 <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+```
 
 ## If you want mobile/tablets support those plugins are also required
 "jquery-ui-touch-punch-improved" : "~0.3.1"
@@ -58,17 +60,17 @@ Example html structure, note that at least 3 slides are required.
 ```
 
 #### Include kolab-slider plugin
-```
+```html
 <script type="text/javascript" src="src/javascripts/kolab-slider.js"></script>
 ```
 
 #### Include promo animation effect used in demo
-```
+```html
 <script type="text/javascript" src="src/javascripts/kolabslider-promo.js"></script>
 ```
 
-#### If you want to use vide slides you also need to include this script
-```
+#### If you want to use video slides you also need to include this script
+```html
 <script type="text/javascript" src="src/javascripts/kolabslider-video.js"></script>
 ```
 
@@ -85,7 +87,7 @@ Example html structure, note that at least 3 slides are required.
       </div>
       <div class="details">
         <div class="close"></div>
-        <div class="embedded-video youtube-video" data-video-url="0NKUpo_xKyQ">
+        <div class="embedded-video youtube-video" data-video-url="0NKUpo_xKyQ"> <!-- Video id in here -->
             <div class="player"></div>
         </div>
       </div>
@@ -97,7 +99,7 @@ Example html structure, note that at least 3 slides are required.
 
 
 #### Include main styles
-```
+```html
 <link rel="stylesheet" href="examples/stylesheets/main.css">
 ```
 
