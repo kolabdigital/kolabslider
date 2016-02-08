@@ -1,0 +1,11 @@
+{
+  "name": "kolab-slider",
+  "version": "1.0.0",
+  "dependencies": {
+    "jquery": ">=1.10.2",
+    "jquery-ui": ">=1.11.4",
+    "jquery-ui-touch-punch-improved" : "~0.3.1",
+    "jquery-touchswipe": ">=1.6.9"
+  },
+  "private": true
+}
