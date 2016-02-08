@@ -1,6 +1,7 @@
 # Kolabslider timeline slider
 
 Demo available in here http://kolabdigital.github.io/kolabslider
+
 Photos used in demo are taken from https://unsplash.com
 
 # Requirements
